@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Towel Notification System</title>
+<link rel="stylesheet" type="text/css" href="tnss.css">
+<script src="tnss.js"></script>
+
+</head>
+<body onload="fbgc();">
+<div id="zcT">
+<div id="q">
+
+<h1>Towel Notification System</h1>
+</div>
+
+<form method="post" action="towel.php" onsubmit="butt.disabled = true; dis(); runn(); return true;" target="towel">
+
+<table style="width:100%">
+
+
+	<tr>
+	<td>
+	<div id="w">
+	<h2>What towel?</h2>
+	<p style="font-size:20px">
+	<input type="checkbox" name="mike" value="Mike "> Mike<br>
+	<input type="checkbox" name="vince" value="Vince "> Vince<br>
+	<input type="checkbox" name="marc" value="Marc "> Marc<br>
+	<input type="checkbox" name="warr" value="Warren "> Warren<br>
+	<input type="checkbox" name="neil" value="Neil "> Neil<br>
+	<input type="checkbox" name="alex" value="Alex "> Alex<br>
+	<input type="checkbox" name="nick" value="Nick "> Nick<br>
+
+
+	</p></div></td><td>
+	<div id="e">
+	<h2>Is doing wat?</h2>
+	<p style="font-size:20px">
+	<input type="radio" name="wat" value="is/are coming over"> Is coming over<br>
+	<input type="radio" name="wat" value="needs to be signed in"> Needs to be signed in<br>
+	<input type="radio" name="wat" value="is a towel"> Is a towel<br>
+	<input type="radio" name="wat" value="is a super towel"> Is a super towel<br>
+
+	</p>
+	</div></td>
+	</tr>
+	<tr>
+	<td>
+	<div id="r">
+	
+	<h2>Send to which towel?</h2>
+	
+	<p style="font-size:20px">
+	<input type="checkbox" name="vinceS" id="vinceS" > Vince<br>
+	<input type="checkbox" name="mikeS" id="mikeS" > Mike<br>
+	<input type="checkbox" name="nickS" id="nick" > Nick<br>
+	</p></div>
+	</td>
+	
+	<td>
+	<div id="t">
+	<h3>Additional Message</h3>
+	<p style="font-size:15px">There is a limit on the number of characters that can be sent to someone's phone. <br> So keep the message short.</p>
+	<textarea name="exx" id="exx"></textarea><br>
+	</div>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<button type="reset" value="Clear Form" id="rese" onClick="butt.disabled = false; ena(); runn(); return true;">Clear Form</button>
+	</td>
+	<td>
+	<input type="submit" value="Send" name="butt" id="butt"><br>
+	</td>
+	</tr>
+
+
+</table></form>
+<br><br>
+</div>
+<br>
+<br>
+<button id="fon" onclick="runn();">Change Font</button> 
+<br><br><br><br><br><br>
+<button id="nofun" onclick="nof();">No Fun!!</button> 
+<br><br><br><br><br><br>
+
+<button id="pizz" onclick="butt.disabled = true; read();">Check for PPPPPPIIIIIZZZZZAAAAAAAAA!!!!!</button> 
+<iframe name="towel" style="display:none;"></iframe>
+
+
+
+</body>
+

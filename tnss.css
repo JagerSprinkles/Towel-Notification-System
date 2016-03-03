@@ -1,0 +1,118 @@
+@font-face {
+	font-family: troll;
+	src: url(/fonts/redic.ttf);
+}
+
+@font-face {
+	font-family: gal;
+	src: url(/fonts/gal.ttf);
+}
+@font-face {
+	font-family: gal;
+	src: url(/fonts/gal.ttf);
+}
+@font-face {
+	font-family: ad;
+	src: url(/fonts/ad.ttf);
+}
+@font-face {
+	font-family: as;
+	src: url(/fonts/as.ttf);
+}
+@font-face {
+	font-family: ast;
+	src: url(/fonts/ast.ttf);
+}
+@font-face {
+	font-family: b2;
+	src: url(/fonts/b2.ttf);
+}
+@font-face {
+	font-family: bc;
+	src: url(/fonts/bc.ttf);
+}
+@font-face {
+	font-family: co;
+	src: url(/fonts/co.ttf);
+}
+@font-face {
+	font-family: es;
+	src: url(/fonts/es.ttf);
+}
+@font-face {
+	font-family: ge;
+	src: url(/fonts/ge.ttf);
+}
+@font-face {
+	font-family: kn;
+	src: url(/fonts/kn.ttf);
+}
+@font-face {
+	font-family: ma;
+	src: url(/fonts/ma.ttf);
+}
+@font-face {
+	font-family: og;
+	src: url(/fonts/og.ttf);
+}
+@font-face {
+	font-family: re;
+	src: url(/fonts/re.ttf);
+}
+@font-face {
+	font-family: ss;
+	src: url(/fonts/ss.ttf);
+}
+@font-face {
+	font-family: ty;
+	src: url(/fonts/ty.ttf);
+}
+@font-face {
+	font-family: wp;
+	src: url(/fonts/wp.ttf);
+}
+@font-face {
+	font-family: ea;
+	src: url(/fonts/ea.otf);
+}
+@font-face {
+	font-family: qu;
+	src: url(/fonts/qu.otf);
+}
+@font-face {
+	font-family: yo;
+	src: url(/fonts/yo.otf);
+}
+
+
+@font-face {
+	font-family:"layer";
+	src:url("/fonts/LAYEU___.eot?") format("eot"),url("/fonts/LAYEU___.woff") format("woff"),url("/fonts/LAYEU___.ttf") format("truetype"),url("/fonts/LAYEU___.svg#layer") format("svg");
+	font-weight:normal;
+	font-style:normal;
+	}
+
+
+
+
+BODY {
+
+font-family: 'troll', 'Comic Sans MS', 'Comic Sans', 'comic sans', 'Chalkboard SE', 'Comic Neue', cursive, sans-serif;
+
+
+background-image: url(towel.jpg);
+background-size: 960px 540px;
+background-repeat: repeat;
+
+text-shadow: 2px 1px 1px #000;
+}
+
+
+
+#zcT {width: 100%}
+#q {width: 50%}
+#w {width: 100%}
+#e {width: 50%}
+#r {width: 100%}
+#t {width: 50%}
+
